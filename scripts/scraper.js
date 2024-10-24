@@ -40,8 +40,8 @@ const map = headings.reduce(
   {},
 );
 
-fs.writeFileSync("./kaomojis.json", JSON.stringify(map, undefined, 2));
+fs.writeFileSync(kaomojiOutput, JSON.stringify(map, undefined, 2));
 
-fs.writeFileSync("./categories.json", JSON.stringify(headings, undefined, 2));
+fs.writeFileSync(categoryOutput, JSON.stringify(headings, undefined, 2));
 
 await browser.close();
