@@ -6,9 +6,6 @@
 	"repository": {
 		"url": "https://github.com/stephansama/alfred-kaomoji.git"
 	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
 	"description": "Alfred Kaomoji Picker",
 	"scripts": {
 		"test": "echo 'tested (* ^ ω ^)'",
