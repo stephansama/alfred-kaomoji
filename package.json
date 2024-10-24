@@ -5,7 +5,7 @@
 	"version": "1.0.0",
 	"description": "Alfred Kaomoji Picker",
 	"scripts": {
-		"scrape": "node ./scraper.js",
+		"scrape": "node ./scripts/scraper.js",
 		"postinstall": "alfy-init",
 		"preuninstall": "alfy-cleanup"
 	},

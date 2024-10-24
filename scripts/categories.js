@@ -1,6 +1,6 @@
 "use strict";
 import alfy from "alfy";
-import data from "./categories.json" with { type: "json" };
+import data from "../data/categories.json" with { type: "json" };
 
 const formattedData = data.map((t, i) => ({ title: t, id: i }));
 

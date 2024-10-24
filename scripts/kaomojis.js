@@ -1,6 +1,6 @@
 "use strict";
 import alfy from "alfy";
-import data from "./kaomojis.json" with { type: "json" };
+import data from "../data/kaomojis.json" with { type: "json" };
 
 const formattedData = Object.entries(data).map(([k, v], i) => ({
   id: i + 1,

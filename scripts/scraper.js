@@ -1,9 +1,13 @@
-import puppeteer from "puppeteer";
 import fs from "node:fs";
+import puppeteer from "puppeteer";
+
+const kaomojiOutput = "../data/kaomojis.json";
+const categoryOutput = "../data/categories.json";
+
+const url = "https://kaomoji.ru/en/";
 
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
-const url = "https://kaomoji.ru/en/";
 
 await page.goto(url);
 
