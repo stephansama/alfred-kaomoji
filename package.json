@@ -2,7 +2,7 @@
 	"name": "alfred-kaomoji",
 	"type": "module",
 	"main": "index.js",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"repository": {
 		"url": "https://github.com/stephansama/alfred-kaomoji.git"
 	},
