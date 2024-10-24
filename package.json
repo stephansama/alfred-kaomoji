@@ -2,7 +2,7 @@
 	"name": "alfred-kaomoji",
 	"type": "module",
 	"main": "index.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Alfred Kaomoji Picker",
 	"scripts": {
 		"scrape": "node ./scripts/scraper.js",
